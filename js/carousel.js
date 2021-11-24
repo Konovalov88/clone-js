@@ -27,6 +27,11 @@
     ];
        
 
+function renderSlidesTypesOfHoneyCarousel (typesOfHoneyCarousel) {
+    const slidesContainer = document.querySelector('.types-of-honey-carousel .columns-carousel-types')
+}
+
+
     const productsContainer = document.querySelector(".products");
     let html = "";
     for (const product of sortedProducts) {
