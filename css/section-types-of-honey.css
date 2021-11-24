@@ -1,0 +1,98 @@
+.check-icon {
+    width: 20px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.check-option {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.types-of-honey-info {
+    margin: 10px;
+}
+
+.columns-img {
+    height: 100px;
+    width: 100px;
+}
+
+.button-shop-now {
+	background-color: #eb6d2f;
+	border-radius: 8px;
+	border-width: 2px;
+	width: 130px;
+	height: 45px;
+	letter-spacing: 0.03em;
+	text-align: center;
+	cursor: pointer;
+	font-size: 16px;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+}
+
+.strip {
+    height: 4px;
+    width: 20%;
+    color: #eb6d2f;
+    border-bottom: 4px #eb6d2f solid;
+    margin: 0;
+}
+
+.columns-carousel-types {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #ffffff;
+    width: 291px;
+    height: 500px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(192, 192, 192, 0.5) 0 0 15px;
+}
+
+.types-of-honey-carousel {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.columns-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #5a3733;
+}
+
+.text-columns {
+    font-size: 16px;
+    color: #5a3733;
+}
+
+.section-types-of-honey {
+    margin: 0 5% 0 5%;
+}
+
+@media (min-width:992px) {
+    .section-types-of-honey {
+        margin: 0 5% 0 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .types-of-honey-info {
+        margin-right: 0;
+        flex-basis: 270em;
+    }
+
+    .types-of-honey-carousel{
+        display: flex;
+        padding: 0 0 0 0;
+        flex-wrap: wrap;
+        flex-basis: 700em;
+    }
+}

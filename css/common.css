@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika+Negative&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Signika+Negative&display=swap");
+
+
+
+
+
+html,
+body {
+    overflow-x: hidden;
+    position: relative;
+    czczxzxczczx
+}
+
+
+.container {
+
+    max-width: 2000px;
+    margin: auto;
+}
+
+
+
+
+
+a:hover {
+    text-decoration: none;
+}
+
+body { /* вище вже задані ці значення*/
+    overflow-x: hidden;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    --main-color: #eb6d2f;
+    --h1-h2-h4-color: #5a3733;
+    background-color: #f9f4f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    border: 0;
+
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/* Спільні елементи */
+h1 {
+    font-family: "Signika Negative", sans-serif;
+    font-size: 86px;
+    color: var(--h1-h2-h4-color);
+    font-weight: bold;
+    margin: 25px 0 15px 0;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+h2 {
+    font-family: "Signika Negative", sans-serif;
+    font-size: 50px;
+    color: var(--h1-h2-h4-color);
+    font-weight: bold;
+    margin: 25px 0 15px 0;
+}
+
+h3 {
+    color: var(--main-color);
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+}
+
+h4 {
+    font-family: "Signika Negative", sans-serif;
+    color: var(--h1-h2-h4-color);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
+
+.text-columns {
+    color: #413939;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.small-text {
+    color: rgb(65, 57, 57);
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 15px 0 15px 0;
+}
+
+.strip {
+    width: 50px;
+    border-bottom: 4px var(--main-color) solid;
+}
+
+.button {
+    background-color: var(--main-color);
+    border-radius: 8px;
+    border-width: 2px;
+    width: 130px;
+    height: 45px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+
+}
+
+.button-orange:hover {
+    background-color: orange;
+}
+
+
+.button:hover {
+    background-color: orange;
+    transition: all 0.5s;
+}
+
+.text-learn-more {
+    text-align: center;
+    color: #ffd832;
+    font-size: 13.5px;
+    line-height: 1.33em;
+    letter-spacing: 0.03em;
+    margin: 30px 0 0 0;
+    font-weight: bold;
+}
+
+.text-learn-more:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

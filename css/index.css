@@ -1,0 +1,148 @@
+/*by Mykola Kuchmenko*/
+
+.store {
+    background: url(img/store-background.webp);
+    padding: 120px;
+
+}
+
+.store-text h2,
+.name-of-goods,
+.item-price,
+.how-to-order-text h2,
+.step-name {
+    font-family: 'Signika Negative', sans-serif
+}
+
+.how-to-order h3,
+.store h3 {
+    color: #eb6d2f;
+    font-size: 14px;
+    text-align: center;
+}
+
+.store-text h2,
+.how-to-order-text h2 {
+    color: rgb(90, 55, 51);
+    text-align: center;
+    font-size: 50px;
+}
+
+.name-of-goods {
+    color: rgb(147, 147, 147);
+    font-size: 22px;
+    text-align: center;
+}
+
+.item a {
+    text-decoration: none;
+}
+
+.strip-store {
+    width: 50px;
+    border-bottom: 4px #eb6d2f solid;
+    margin: 25px 0 20px 0;
+    margin: auto;
+}
+
+.store-text p,
+.how-to-order-description {
+    color: rgb(65, 57, 57);
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    max-width: 770px;
+    margin: auto;
+
+}
+
+.item-img {
+    margin: auto;
+    text-align: center;
+}
+
+.item-price {
+    color: rgb(247, 189, 0);
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+
+
+.honey-crossing {
+    background: url(img/honey-crossing.webp) repeat-y;
+    height: 160px;
+    margin-top: -100px;
+}
+
+
+.store-item-button {
+    background-color: rgb(235, 109, 47);
+    border-radius: 8px;
+    border-width: 2px;
+    margin: auto;
+    width: 120px;
+    height: 45px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.store-item-button {
+    background-color: orange;
+}
+
+.how-to-order {
+    background: #f7bd00;
+}
+
+.how-to-order-steps {
+    display: inline-flex;
+}
+
+
+
+
+
+.step-name {
+    color: rgb(90, 55, 51);
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 37px;
+}
+
+.step-description {
+    color: rgb(65, 57, 57);
+    font-size: 16px;
+    text-align: center;
+}
+
+.step-button {
+    background-color: rgb(235, 109, 47);
+    width: 290px;
+    height: 56px;
+    border-radius: 8px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.steps-button {
+    text-decoration: none;
+
+}
+
+.step-button p {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding-top: 15px;
+
+}

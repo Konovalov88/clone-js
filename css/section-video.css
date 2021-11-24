@@ -1,0 +1,17 @@
+.section-video {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.honey-video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 650px;
+}
