@@ -1,0 +1,122 @@
+@media(min-width:980px) {
+
+    .section-what-we-do {
+        background-image: url(../img/background-block-2.webp);
+        background-size: cover;
+
+        position: relative;
+        width: auto;
+        max-height: 750px;
+        margin: 0 auto;
+
+    }
+
+    .columns-section-what-we-do {
+        text-align: center;
+        background-color: #ffffff;
+        max-width: 360px;
+        padding: 50px;
+
+    }
+
+    img.columns-img-section-what-we-do {
+        width: 91px;
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* common */
+#strip-section-what-we-do {
+    margin: 0 auto;
+}
+.next{
+	background-color: white;
+	border-radius: 50%;
+	width: 15px;
+	content: "\U+E76C";
+	margin-left: 1195px;
+	margin-top:218px;
+	position: absolute;
+	opacity: 0.3;
+
+}
+.next:hover{
+	opacity: 1;
+}
+.prev{
+	background-color: white;
+	border-radius: 50%;
+	width: 15px;
+	margin-left: -10px;
+	margin-top:218px;
+	position: absolute;
+	opacity: 0.3;
+}
+.prev:hover{
+	opacity: 1;
+}
+
+.block-columns-section-what-we-do {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.content-section-what-we-do {
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+.text-section-what-we-do {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+@media(max-width:768px) {
+
+    .section-what-we-do {
+        background-image: url('/img/background-block-2.webp');
+
+        background-size: cover;
+        padding: 24px;
+
+    }
+
+    .text-section-what-we-do {
+        text-align: center;
+
+    }
+
+    .block-columns-section-what-we-do {
+
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+        flex-wrap: wrap;
+
+    }
+
+    .columns-section-what-we-do {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: silver 0 0 5px;
+        padding: 35px 10px 35px 10px;
+        max-width: 242px;
+        max-height: 326px;
+    }
+
+    .columns-img-section-what-we-do {
+        margin: auto;
+        max-width: 63.92px;
+        max-height: 70px;
+    }
+
+}
